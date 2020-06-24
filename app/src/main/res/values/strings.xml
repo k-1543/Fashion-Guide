@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">FashionApp</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Enter Email ID</string>
+    <string name="Map_Key">AIzaSyDrUDe-iDEpxS2DOqHZnuM2HHJVEE-v3Vk</string>
+    <string name="next">Next</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="female">Female</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_gmap">Map</string>
+    <string-array name="Height1">
+        <item>Select Height</item>
+        <item>4.11</item>
+        <item>5.0</item>
+        <item>5.1</item>
+        <item>5.2</item>
+        <item>5.3</item>
+        <item>5.4</item>
+        <item>5.5</item>
+        <item>5.6</item>
+        <item>5.7</item>
+        <item>5.8</item>
+        <item>5.9</item>
+        <item>5.10</item>
+        <item>5.11</item>
+        <item>6.0</item>
+        <item>6.1</item>
+        <item>6.2</item>
+        <item>6.3</item>
+        <item>6.4</item>
+        <item>6.5</item>
+    </string-array>
+    <array name="Weight">
+        <item>Select Weight</item>
+        <item>Less than 35</item>
+        <item>35-45</item>
+        <item>45-55</item>
+        <item>55-65</item>
+        <item>65-75</item>
+        <item>75-85</item>
+        <item>85-95</item>
+        <item>More than 95</item>
+    </array>
+    <string-array name="Foot">
+        <item>Select Foot Length</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="Complexion">
+        <item>Select Type of Complexion</item>
+        <item>I (Under Cooked)</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI (Pitch Black)</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_tepm">Map</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>

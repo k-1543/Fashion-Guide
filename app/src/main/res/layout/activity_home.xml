@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="330dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logo"
+        tools:layout_conversion_absoluteHeight="225dp"
+        tools:layout_conversion_absoluteWidth="225dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <Button
+        android:id="@+id/boutique"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="251dp"
+        android:text="Boutique" />
+
+    <Button
+        android:id="@+id/foot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="180dp"
+        android:text="Footwear" />
+
+    <Button
+        android:id="@+id/tailor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/foot"
+        android:layout_alignEnd="@+id/imageView2"
+        android:text="Tailor" />
+
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="110dp"
+        android:text="Rate Shop " />
+
+    <Button
+        android:id="@+id/extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rate"
+        android:layout_alignEnd="@+id/imageView2"
+        android:text="Extras" />
+
+    <Button
+        android:id="@+id/information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Personal Info" />
+
+    <Button
+        android:id="@+id/saloon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tailor"
+        android:layout_alignTop="@+id/boutique"
+        android:text="Saloon" />
+
+
+</RelativeLayout>
